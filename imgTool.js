@@ -35,7 +35,7 @@ $('img').css('cursor', 'crosshair');$(document).on('click','img',function(){
 		<span style=\'font-family:courier;color:#900;\'><br>&#34;'+altimg+'&#34;</span>
 		<br>
 		The Image Path is: <span style=\'font-family:courier;color:#900;\'><br>&#34;'+srcimg+'&#34;</span>
-		<br><a href=&#34;'+srcimg+'&#34; target=\'_blank\'><br><span style=\'font-size:10px\'>(IMG preview)</span></a>
+		<br><a href='+srcimg+' target=\'_blank\'><br><span style=\'font-size:10px\'>(IMG preview)</span></a>
 		<br>
 		The Image Link URL is: <span style=\'font-family:courier;color:#900;\'><br>&#34;'+linkSrc+'&#34;</span>
 		<br><br>
