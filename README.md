@@ -14,7 +14,7 @@ This is a simple bookmarklet tool that allows a user to click a web image and re
 ###Acknowledgements###
 
 *Very special thanks* to [Ben Alman](http://benalman.com/code/test/jquery-run-code-bookmarklet/) for the very helpful jQuery bookmarklet tool allowing this script to be expedited.<br>
-*Special thanks* to [Shay Elkayam](http://stackoverflow.com/users/1167355/shay-elkayam) for the [SO](http://stackoverflow.com/questions/22866709/use-jquery-to-find-images-loaded-to-the-dom-after-page-load) for the nudge in the right direction as needed.<br>
+*Special thanks* to [Shay Elkayam](http://stackoverflow.com/users/1167355/shay-elkayam) for the [SO](http://stackoverflow.com/questions/22866709/use-jquery-to-find-images-loaded-to-the-dom-after-page-load) "nudge" in the right direction as needed.<br>
 *Special thanks* to [GH](http://www.garnethill.com) for providing the void for which this tool filled.
 
 ...And a final "Thank you" to all who have, and might still, contribute(d) to this project.
