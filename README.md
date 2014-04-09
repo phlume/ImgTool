@@ -1,5 +1,7 @@
 LinkGrabber
 ===========
+####Live Example####
+[ImgInfo Tool](http://www.phlume.com/scripts/)
 
 ###About###
 This is a simple bookmarklet tool that allows a user to click a web image and retrieve it's associated link, alt text and image path. The use of the tool is relatively simple.
