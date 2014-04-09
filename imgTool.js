@@ -31,18 +31,19 @@ $('img').css('cursor', 'crosshair');$(document).on('click','img',function(){
 	</style>
 	<div id=\'nfobx\' class=\'infoBox\'>
 		<h3 style="text-align:center;color:#118;font-family:arial;font-size:16px;">-Image Info Tool-</h3>
-		The Image ALT Text is:<br>
-		<span style=\'font-family:courier;color:#900;\'><br>&#34;'+altimg+'&#34;</span>
+		<br>The Image ALT Text is:
 		<br>
-		The Image Path is: <span style=\'font-family:courier;color:#900;\'><br>&#34;'+srcimg+'&#34;</span>
-		<br><a href='+srcimg+' target=\'_blank\'><br><span style=\'font-size:10px\'>(IMG preview)</span></a>
+		<div style=\'font-family:courier;color:#900;background:#fff;padding:5px;border-radius:3px;border:1px solid #cdcdcd;\'>&#34;'+altimg+'&#34;</div>
+		<br>The Image Path is:&nbsp;&nbsp;&nbsp;
+		<a href='+srcimg+' target=\'_blank\'><span style=\'font-size:10px\'>(View IMG in new tab)</span></a>
 		<br>
-		The Image Link URL is: <span style=\'font-family:courier;color:#900;\'><br>&#34;'+linkSrc+'&#34;</span>
+		<div style=\'font-family:courier;color:#900;background:#fff;padding:5px;border-radius:3px;border:1px solid #cdcdcd;\'>&#34;'+srcimg+'&#34;</div>
+		<br>The Image Link URL is:<br>
+		<div style=\'font-family:courier;background:#fff;padding:5px;border-radius:3px;border:1px solid #cdcdcd;color:#900;\'>&#34;'+linkSrc+'&#34;</div>
+		<br>The Full Code Snippet is:<br>
+		<textarea id="total" onclick=\'javascript:$(this).focus();$(this).select();\' style=\'background:#fff;width:240px;height:200px;padding:5px;font-family:courier;color:#900;font-size:12px;\'>&lt;a href=&#34;'+linkSrc+'&#34; target=\'_parent\'&gt;&lt;img src=&#34;'+srcimg+'&#34; alt=&#34;'+altimg+'&#34; title=&#34;'+altimg+'&#34;&gt;&lt;/a&gt;</textarea>
 		<br><br>
-		The Full Code Snippet is:<br>
-		<textarea style=\'background:#fff;width:240px;height:200px;padding:5px;font-family:courier;color:#900;font-size:12px;\'>&lt;a href=&#34;'+linkSrc+'&#34; target=\'_parent\'&gt;&lt;img src=&#34;'+srcimg+'&#34; alt=&#34;'+altimg+'&#34; title=&#34;'+altimg+'&#34;&gt;&lt;/a&gt;</textarea>
-		<br>
-		<input type=\'button\' style=\'cursor:pointer;background:#ddd;color:#000;border:1px solid #000;border-radius:3px;\' value=\'Refresh Page\' onClick=\'history.go(0)\'>
-		</div>')
+		<input type=\'button\' style=\'cursor:pointer;background:#ddd;color:#000;border:1px solid #000;border-radius:3px;\' value=\'Refresh Page\'onClick=\'history.go(0)\' >
+	</div>')
 	;})
 ;})
