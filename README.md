@@ -1,8 +1,8 @@
 Img Tool
 ===========
-####[Live Example]####(http://www.phlume.com/scripts/)
+####[Live Example](http://www.phlume.com/scripts/)
 
-###About###
+###About
 This is a simple bookmarklet tool that allows a user to click a web image and retrieve it's associated link, alt text and image path. The use of the tool is relatively simple.
 - Drag the bookmarklet to the toolbar of the browser (Chrome or FF).
 - Click the bookmarklet on a page you want to retrieve the img information.
@@ -12,7 +12,7 @@ This is a simple bookmarklet tool that allows a user to click a web image and re
 - Click F5 to refresh the page and re-enable links.
 
 
-###Acknowledgements###
+###Acknowledgements
 
 *Very special thanks* to [Ben Alman](http://benalman.com/code/test/jquery-run-code-bookmarklet/) for the very helpful jQuery bookmarklet tool allowing this script to be expedited.<br>
 *Special thanks* to [Shay Elkayam](http://stackoverflow.com/users/1167355/shay-elkayam) for the [SO](http://stackoverflow.com/questions/22866709/use-jquery-to-find-images-loaded-to-the-dom-after-page-load) "nudge" in the right direction as needed.<br>
@@ -21,6 +21,6 @@ This is a simple bookmarklet tool that allows a user to click a web image and re
 ...And a final "Thank you" to all who have, and might still, contribute(d) to this project.
 
 
-###License###
+###License
 
 LinkGrabber by Chad Fillion is licensed under the GNU GENERAL PUBLIC LICENSE. This applies to all documents and translations in this repository.
