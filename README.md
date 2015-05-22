@@ -23,4 +23,4 @@ This is a simple bookmarklet tool that allows a user to click a web image and re
 
 ###License
 
-LinkGrabber by Chad Fillion is licensed under the GNU GENERAL PUBLIC LICENSE. This applies to all documents and translations in this repository.
+Img Tool by Chad Fillion is licensed under the GNU GENERAL PUBLIC LICENSE. This applies to all documents and translations in this repository.
